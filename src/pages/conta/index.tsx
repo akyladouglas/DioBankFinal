@@ -52,7 +52,7 @@ export const Conta = () => {
     <Flex minHeight="100vh" flexDirection="column">
       <Header />
       <Center>
-        {userData == null || userData == undefined ? (
+        {userData === null || userData === undefined ? (
           <Center>
             <Spinner size="xl" color="#00ff1a" />
           </Center>
