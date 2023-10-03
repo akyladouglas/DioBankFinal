@@ -29,7 +29,7 @@ export const Conta = () => {
     getData();
   }, []);
 
-  if (userData && id != userData.id) {
+  if (userData && id !== userData.id) {
     navigate("/");
   }
 
